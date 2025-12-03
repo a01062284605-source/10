@@ -1,0 +1,7 @@
+{
+  "name": "미션 브릿지 (Mission Bridge)",
+  "description": "매일 소소한 미션과 보상, 익명의 커뮤니티 응원을 통해 자신감을 키워주는 스몰 스텝 챌린지 앱입니다.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
