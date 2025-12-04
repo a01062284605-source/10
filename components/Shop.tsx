@@ -1,7 +1,7 @@
 import React from 'react';
 import { THEMES } from '../constants';
 import { Theme, UserState } from '../types';
-import { Check, Lock, Palette } from 'lucide-react';
+import { Check, Lock } from 'lucide-react';
 
 interface ShopProps {
   user: UserState;

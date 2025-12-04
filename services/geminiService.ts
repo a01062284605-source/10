@@ -64,7 +64,7 @@ const LOCAL_MISSIONS = [
   }
 ];
 
-export const generateMission = async (userMood: string = "neutral"): Promise<Omit<Mission, 'id' | 'timestamp' | 'status'>> => {
+export const generateMission = async (_userMood: string = "neutral"): Promise<Omit<Mission, 'id' | 'timestamp' | 'status'>> => {
   // Simulate network delay for realistic experience
   await new Promise(resolve => setTimeout(resolve, 800));
 

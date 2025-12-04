@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Home, ShoppingBag, User, Trophy } from 'lucide-react';
 import { THEMES, INITIAL_CREDITS } from './constants';
 import { UserState, Mission } from './types';
